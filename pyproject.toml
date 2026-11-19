@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools==75.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-create"
+version = "0.0.1"
+description = "Unmodified Python B2 create fixture for pipeline validation"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.setuptools]
+py-modules = ["create"]
